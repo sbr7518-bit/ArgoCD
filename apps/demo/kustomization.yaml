@@ -12,8 +12,8 @@ resources:
   - gitops-service.yaml
 
 images:
-  - name: docker.io/koreanirsa/demo
-    newName: docker.io/koreanirsa/demo
+  - name: docker.io/sbr7518/demo
+    newName: docker.io/sbr7518/demo
     newTag: PLACEHOLDER
 
 
