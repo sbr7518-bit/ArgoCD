@@ -1,7 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
-kind: kustomization
+kind: Kustomization
 namespace: demo  # 모든 리소스에 demo 네임스페이스 적용
-
 
 # demo 네임 스페이스에 포함시킬 목록
 resources:
@@ -13,6 +12,19 @@ resources:
   - gitops-service.yaml
 
 images:
-  - name: docker.io./sbr7518/demo
-    newName: docker.io./sbr7518/demo
+  - name: docker.io/koreanirsa/demo
+    newName: docker.io/koreanirsa/demo
     newTag: PLACEHOLDER
+
+
+
+
+
+
+
+
+
+
+
+
+

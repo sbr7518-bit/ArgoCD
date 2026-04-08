@@ -15,9 +15,18 @@ spec:
     spec:
       containers:
         - name: demo-container
-          image: docker.io./sbr7518/demo:PLACEHOLDER
+          image: docker.io/koreanirsa/demo:PLACEHOLDER
           ports:
             - containerPort: 8080
           envFrom:
-            - ConfigMapRef:
+            - configMapRef:
               name: demo-config
+
+
+
+
+
+
+
+
+

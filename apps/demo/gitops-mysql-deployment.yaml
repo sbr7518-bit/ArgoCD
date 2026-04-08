@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: mysql
   namespace: demo
-
 spec:
   replicas: 1
   selector:
@@ -13,7 +12,6 @@ spec:
     metadata:
       labels:
         app: mysql
-
     spec:
       containers:
         - name: mysql
@@ -25,3 +23,11 @@ spec:
               value: qwer1234!
             - name: MYSQL_DATABASE
               value: demo
+
+
+
+
+
+
+
+
