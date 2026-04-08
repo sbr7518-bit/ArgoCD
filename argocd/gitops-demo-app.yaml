@@ -8,7 +8,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/sbr7518/ArgoCD.git   # 배포 되는 Git 저장소
+    repoURL: https://github.com/sbr7518-bit/ArgoCD.git   # 배포 되는 Git 저장소
     targetRevision: master  # 사용할 브랜치
     path: apps/demo         # 해당 브랜치 내에서 사용할 디렉토리 경로
 
