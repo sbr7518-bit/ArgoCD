@@ -14,4 +14,4 @@ resources:
 images:
   - name: docker.io/sbr7518/demo
     newName: docker.io/sbr7518/demo
-    newTag: PLACEHOLDER
+    newTag: "PLACEHOLDER"
